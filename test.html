@@ -6,7 +6,7 @@
   <button onclick="Puck.write('LED2.set();\n');">LED On!</button>
   <button onclick="Puck.write('LED2.reset();\n');">LED Off!</button>
   
-  
+  T=Puck.eval("BTN.read()",function(x) { console.log(x); })
   
  </body>
 </html>
